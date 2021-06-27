@@ -1,0 +1,16 @@
+bin/
+obj/
+Bin/
+Obj/
+dependencies/
+packages/
+*.pdb/
+pingme.txt
+*/.localhistory/*
+.idea/
+.vs/
+.vscode/
+*.user
+venv/
+monitor-services-age/monitor-services-age/.tox/
+monitor-services-age/notify-release-slack/.tox/
