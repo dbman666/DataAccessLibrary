@@ -17,7 +17,7 @@ namespace Coveo.Dal
             return (T)val;
         }
 
-        public static AmazonSimpleSystemsManagementClient SsmClient => FromCacheOrElse("ssm", () => new AmazonSimpleSystemsManagementClient(Reg.This.AwsRegion));
+        public static AmazonSimpleSystemsManagementClient SsmClient => FromCacheOrElse("ssm", () => new AmazonSimpleSystemsManagementClient(RegEnv.This.AwsRegion));
 
         public static MysqlProxy DbFeClient => FromCacheOrElse("db.fe", () => RegEnv.This.DbFeEndpoint.Client);
 

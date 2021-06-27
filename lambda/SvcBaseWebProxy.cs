@@ -37,7 +37,7 @@ namespace Coveo.Dal
             }
 
             if (_signService != null)
-                SignV4Util.SignRequest(verb, request.RequestUri, new MyHeaders(request.Headers), bodyBytes, AwsCredentials.This, Reg.This.Name, _signService);
+                SignV4Util.SignRequest(verb, request.RequestUri, new MyHeaders(request.Headers), bodyBytes, AwsCredentials.This, RegEnv.This.Region, _signService);
 			
             try {
                 return CmfUtil.ReadAllStreamAsUtf8String(request.GetResponse());
