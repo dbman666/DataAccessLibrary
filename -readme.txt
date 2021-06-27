@@ -1,0 +1,1 @@
+- Don't forget LaunchDarkly; either to read from lambda, i.e. every time; or from a service

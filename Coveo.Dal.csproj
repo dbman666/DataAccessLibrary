@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <LangVersion>9</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Amazon.Lambda.Core" Version="2.0.0" />
+      <PackageReference Include="AWSSDK.SecurityToken" Version="3.7.1.15" />
+      <PackageReference Include="AWSSDK.SimpleSystemsManagement" Version="3.7.3.8" />
+      <PackageReference Include="MySql.Data" Version="8.0.25" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+</Project>

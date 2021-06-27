@@ -1,0 +1,59 @@
+﻿using Coveo.Dal;
+
+namespace fe
+{
+    public class Edge_Org_OrgClusterAttribute : EdgeAttribute { }
+    public class Edge_Org_BackupEntryAttribute : EdgeAttribute { }
+    public class Edge_Org_ClusterFieldAttribute : EdgeAttribute { }
+    public class Edge_Org_ClusterInstancesToDeleteAttribute : EdgeAttribute { }
+    public class Edge_Org_CrawlingModuleVersionsAttribute : EdgeAttribute { }
+    public class Edge_Org_ExpiredOrgAttribute : EdgeAttribute { }
+    public class Edge_Org_ExtensionAttribute : EdgeAttribute { }
+    public class Edge_Org_IdleOrgAttribute : EdgeAttribute { }
+    public class Edge_Org_IndexAttribute : EdgeAttribute { }
+    public class Edge_Org_LicenseAttribute : EdgeAttribute { }
+    public class Edge_Org_LimitStatusAttribute : EdgeAttribute { }
+    public class Edge_Org_LimitHistoryAttribute : EdgeAttribute { }
+    public class Edge_Org_LogicalIndexAttribute : EdgeAttribute { }
+    public class Edge_Org_ScheduleAttribute : EdgeAttribute { }
+    public class Edge_Org_SecCacheRefreshStateAttribute : EdgeAttribute { }
+    public class Edge_Org_SecCacheAttribute : EdgeAttribute { }
+    public class Edge_Org_SecCacheEntryAttribute : EdgeAttribute { }
+    public class Edge_Org_SecProviderAttribute : EdgeAttribute { }
+    public class Edge_Org_SourceAttribute : EdgeAttribute { }
+    public class Edge_Org_SubscriptionAttribute : EdgeAttribute { }
+    public class Edge_Org_AllTaskAttribute : EdgeAttribute { }
+    public class Edge_Extension_SourceExtensionAttribute : EdgeAttribute { }
+    public class Edge_Index_ElasticConfigAttribute : EdgeAttribute { }
+    public class Edge_Index_LogicalIndexAttribute : EdgeAttribute { }
+    public class Edge_License_LicenseTemplateAttribute : EdgeAttribute { }
+    public class Edge_LicenseTemplate_OrgTemplateAttribute : EdgeAttribute { }
+    public class Edge_NmAgent_ClusterAgentAttribute : EdgeAttribute { }
+    public class Edge_OrgCluster_AgentAttribute : EdgeAttribute { }
+    public class Edge_OrgCluster_InstanceAttribute : EdgeAttribute { }
+    public class Edge_OrgCluster_MessagingResourceAttribute : EdgeAttribute { }
+    public class Edge_OrgCluster_ProvParametersAttribute : EdgeAttribute { }
+    public class Edge_OrgCluster_ProvTaskAttribute : EdgeAttribute { }
+    public class Edge_Agent_InstanceAttribute : EdgeAttribute { }
+    public class Edge_Source_MappingAttribute : EdgeAttribute { }
+    public class Edge_Source_SourceExtensionAttribute : EdgeAttribute { }
+    public class Edge_Source_SourceStateAttribute : EdgeAttribute { }
+    public class Edge_Source_ScheduleAttribute : EdgeAttribute { }
+    public class Edge_SecCache_ScheduleAttribute : EdgeAttribute { }
+    public class Edge_SecProv_ScheduleAttribute : EdgeAttribute { }
+    public class Edge_Provider_RefreshStateAttribute : EdgeAttribute { }
+    public class Edge_Org_TaskAttribute : EdgeAttribute { }
+    public class Edge_Index_TaskAttribute : EdgeAttribute { }
+    //public class Edge_SecCache_TaskAttribute : EdgeAttribute { }
+    public class Edge_SecProv_TaskAttribute : EdgeAttribute { }
+    public class Edge_Source_TaskAttribute : EdgeAttribute { }
+    public class Edge_Task_ActivityAttribute : EdgeAttribute { }
+    public class Edge_SourceState_ActivityAttribute : EdgeAttribute { }
+    public class Edge_Instance_IndexAttribute : EdgeAttribute { }
+    public class Edge_Instance_SecCacheAttribute : EdgeAttribute { }
+    public class Edge_Instance_SecProvAttribute : EdgeAttribute { }
+    public class Edge_Index_IndexStatusAttribute : EdgeAttribute { }
+    public class Edge_SecCache_SecCacheStatusAttribute : EdgeAttribute { }
+    public class Edge_Org_KnownMetaDataAttribute : EdgeAttribute { }
+    public class Edge_Source_KnownMetaDataAttribute : EdgeAttribute { }
+}

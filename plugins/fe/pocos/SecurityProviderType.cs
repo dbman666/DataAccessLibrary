@@ -1,0 +1,61 @@
+﻿namespace fe
+{
+    public enum SecurityProviderType
+    {
+        ACTIVE_DIRECTORY,
+        ACTIVE_DIRECTORY2,
+        BOX,
+        CLAIMS,
+        CLAIMS_TO_EMAIL,
+        CONFLUENCE,
+        CONFLUENCE2,
+        CUSTOM,
+        DATABASE,
+        DROPBOX_FOR_BUSINESS,
+        EMAIL,
+        EXPANDED,
+        FILE,
+        GOOGLE_DRIVE_DOMAIN_WIDE,
+        GENERIC_REST,
+        JIRA2,
+        JIVE,
+        MICROSOFT_DYNAMICS,
+        OFFICE365,
+        OPENTEXT_CONTENT_SERVER,
+        SALESFORCE,
+        SERVICENOW,
+        SHAREPOINT,
+        SHAREPOINT_ONLINE,
+        SITECORE,
+        ZENDESK
+    }
+
+// SecurityProvider table: type, nodeTypeName, sourceTypeName
+    
+//    ACTIVE_DIRECTORY("SecurityProvider.Windows", "Windows"),
+//    ACTIVE_DIRECTORY2("SecurityProvider.ActiveDirectory", "Active Directory"),
+//    BOX("SecurityProvider.Box", "Box"),
+//    CLAIMS("SecurityProvider.SimpleClaims", "Simple Claims"),
+//    CLAIMS_TO_EMAIL("SecurityProvider.ClaimstoEmailforSharePointOnline", "ClaimsForSharePointOnline"),
+//    CONFLUENCE("SecurityProvider.Confluence", "Confluence"),
+//    CONFLUENCE2("SecurityProvider.Confluence2", "Confluence v2"),
+//    CUSTOM,
+//    DATABASE("SecurityProvider.Database", "Database"),
+//    DROPBOX_FOR_BUSINESS("SecurityProvider.DropboxforBusiness", "Dropbox for Business"),
+//    EMAIL("SecurityProvider.Email", "Email"),
+//    EXPANDED("SecurityProvider.Expanded", "Expanded"),
+//    FILE("SecurityProvider.File", "FileShare"),
+//    GOOGLE_DRIVE_DOMAIN_WIDE("SecurityProvider.GoogleApps", "Google Apps"),
+//    GENERIC_REST("SecurityProvider.GenericRest", "Generic Rest"),
+//    JIRA2("SecurityProvider.Jira2", "Jira v2"),
+//    JIVE("SecurityProvider.Jive", "Jive"),
+//    MICROSOFT_DYNAMICS("SecurityProvider.MicrosoftDynamicsCRM", "Microsoft Dynamics CRM"),
+//    OFFICE365("SecurityProvider.Office365", "Office365"),
+//    OPENTEXT_CONTENT_SERVER("SecurityProvider.OpenTextContentServer", "OpenText Content Server"),
+//    SALESFORCE("SecurityProvider.Salesforce", "Salesforce"),
+//    SERVICENOW("SecurityProvider.ServiceNow", "ServiceNow"),
+//    SHAREPOINT("SecurityProvider.SharePoint", "SharePoint"),
+//    SHAREPOINT_ONLINE("SecurityProvider.SharePointOnline", "SharePoint Online"),
+//    SITECORE("SecurityProvider.Sitecore2", "Sitecore2"),
+//    ZENDESK("SecurityProvider.Zendesk", "Zendesk");
+}
